@@ -1,11 +1,14 @@
 body{
   font-family: Joti One;
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 h1 {
     font-size: 5.0em;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 h2 {
@@ -38,6 +41,13 @@ hr {
 img {
   width: 40%;
   margin:1.66%;
+}
+span{
+  font-size: 4em;
+  margin-right:20px;
+  text-align:center;
+  color:white;
+  width:40px;
 }
 /*font-size*/
 /*font-family*/

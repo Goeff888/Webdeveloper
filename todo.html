@@ -11,17 +11,19 @@
     <link rel="stylesheet" type="text/css" href="css/todo.css">
 </head>
 <body>
-<div id="cont"> 
-<h1>Todo-Liste <i class="fa fa-plus-circle"></i></h1>
-<input type="text" placeholder="Neue Aufgabe...">
-
+<div id="header"><span id="plus"><i class="fa fa-plus-circle"></i></span></div>
+<div class="contain"> 
+    <h1>Todo-Liste </h1>
+    <input type="text" placeholder="Neue Aufgabe...">
     <ul>
-        <li><span><i class="fa fa-eraser"></i></span> Neue Liste <span class="spanlock"><i class="fa fa-lock "></i></span></li>
-        <li><span><i class="fa fa-eraser"></i></span> Alle Todos anzeigen lassen <span class="spanlock"><i class="fa fa-lock"></i></span></li>
+        <li><span><i class="fa fa-eraser"></i></span> markierten Text mit Javascript erkennen <span class="spanlock"><i class="fa fa-lock "></i></span></li>
+        <li><span><i class="fa fa-eraser"></i></span> neues Element einfügen <span class="spanlock"><i class="fa fa-lock"></i></span></li>
         <li><span><i class="fa fa-eraser"></i></span> Bestehendes Todo löschen <span class="spanlock"><i class="fa fa-lock"></i></span></li>
         <li><span><i class="fa fa-eraser"></i></span> Anwendung beenden <span class="spanlock"><i class="fa fa-lock"></i></span></li>
     </ul>
-</div>                                                         
+</div>
+
+
 <script src="js/todo.js"></script>
 </body>
 </html>

@@ -17,3 +17,11 @@ $("input[type='text']").keypress(function(evt){
         $("ul").append("<li><i class='fa fa-eraser'></i> "+ todotext +"<span class='spanlock'><i class='fa fa-lock'></i></span></li>");
    } 
 });
+
+
+$("#plus").on("click",function(){
+   $(".contain").clone().appendTo(".contain");
+   console.log("Hallo");
+   //var newList = document.createElement("div");
+   //document.body.appendChild(newList);
+});

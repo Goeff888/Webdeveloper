@@ -2,26 +2,24 @@ body{
   background: #70e1f5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #f6f1ed;
+  color: black;
+  font-family: 'Arvo', serif;
 }
 
 h1 {
     font-size: 5.0em;    
     text-align: center;
-    font-family: Joti One;
+
 }
 
 h2 {
     font-size: 3.0em;
     text-align: left;
-    font-family: Joti One;
     margin-left: 1%;
 }
 
 h3 {
     font-size: 2em;
-    text-align: left;
-    font-family: Joti One;
     margin-left: 1.66%;
     text-align: center;
 }
@@ -40,10 +38,16 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-img {
-  width: 40%;
 
-  margin:1.66%;
+#dropzone{
+  width:80%;
+  height:200px;
+  border:1px solid black;
+  background-color: grey;
+  margin:auto;
+  padding: inherit;
+  text-align:center;
+  
 }
 #content{
   width:100%;
@@ -56,9 +60,25 @@ img {
   margin-right: 4px;
 }
 
-.brd{
-  border: 2px solid white;
+
+.tools{
+  border: 0.5px solid black;
+  margin-left: 1px;
+  background-color: grey;
+  padding:5px;
+  color:#e2e2e2;
 }
+
+.tools:hover{
+  padding:2px;
+  color:white;
+  border-color: white;
+}
+
+#savePost{
+  margin-top:10px;
+}
+
 /*font-size*/
 /*font-family*/
 /*font-weight*/

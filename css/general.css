@@ -3,18 +3,20 @@ body{
   background: #abbaab;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  margin-left:1.6%;
 }
 
 h1 {
     font-size: 5.0em;
-    text-align: center;    
+    text-align: center;
+    
 }
 
 h2 {
     font-size: 3.0em;
     text-align: left;
     margin-left: 1%;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -26,6 +28,9 @@ h3 {
 
 li {
   margin-left: 1.66%;
+  list-style: none;
+  float:left;
+  padding: 5px 10px 20px 10px;
 }
 
 p {
@@ -48,6 +53,16 @@ span{
   text-align:center;
   color:white;
   width:40px;
+}
+
+.webdeveloper{
+  text-align: center;
+}
+
+
+#courses{
+  height:10%;
+
 }
 /*font-size*/
 /*font-family*/

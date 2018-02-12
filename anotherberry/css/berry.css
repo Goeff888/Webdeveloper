@@ -8,6 +8,21 @@ h1{
   font-size: 4em;
 }
 
+.ulLeftSidebar{
+  list-style-type: none;
+  font-size: 1.2em;
+  margin-left:4px;
+}
+
+.overLi{
+  font-size: 1.3em;
+  padding-left:2px;
+background: #FFEEEE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DDEFBB, #F9F9F9);  /* Chrome 10-25, Safari 5.1-6 */
+background: radial-gradient( #ffffff, #F9F9F9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 .entry1{
   border-width: 5px;
   border-style: solid;
@@ -44,12 +59,18 @@ h1{
 }
 
 #rightsidebar{
-  background: #667467;
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F9F9F9, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding-top: 2%;
 }
 
 #leftsidebar{
-  background: #f6f1ed;
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #f6f1ed);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f6f1ed, #F9F9F9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
   padding-top: 2%;
 }
 

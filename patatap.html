@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Patatap</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Joti+One" >
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/patatap.css">
+<!-- Load the Paper.js library -->
+<script type="text/javascript" src="js/paper-full.js"></script>
+<!-- Define inlined PaperScript associate it with myCanvas -->
+<script type="text/paperscript" canvas="myCanvas">
+
+
+function onKeyDown(event) {
+
+   // if (event.key == 'space') {
+        // Create random Point
+        var point= new Point(Math.floor(Math.random() * view.size.width), Math.floor(Math.random() * view.size.height));
+        var path = new Path.Circle({
+        center: point,
+        radius: 30,
+        fillColor: 'red'
+        });       
+        console.log(view.size);
+        // Show animated Circle
+        
+        
+        return false;
+    //}
+}
+</script>
+</head>
+<body>
+	<canvas id="myCanvas" resize></canvas>
+</body>
+</html>

@@ -1,38 +1,98 @@
 <html>
 <head>
-    <title>Blog-Seite</title>
+    <title>Blog-Übersicht</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/general.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Joti+One" >
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/blog.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 </head>
 <body>
-<div class="post"></div>
-<div class="date">19. juni 2018</div>
-<h1>Mein erster Beitrag</h1>
-<p class="quote">Celery quandong swiss chard chicory earthnut pea potato.
-Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori.
-Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.</p>
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+  <a class="navbar-brand" href="anotherberry.html"><i class="fa fa-globe" aria-hidden="true"></i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane
-    kale. Celery potato scallion desert raisin horseradish spinach carrot soko.
-    Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion
-    chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi
-    beetroot carrot watercress.
-    Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.</p>
-<hr>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">News <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Projekte
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="projects/berrycar_start.html">Berrycar</a>
+          <a class="dropdown-item" href="projects/retropi_start.html">Retropi</a>
+          <a class="dropdown-item" href="projects/nvidiashield_start.html">NVIDIA-SHIELD</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sensoren und Zubehör
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="sensoren_start.html">Sensoren</a>
+          <a class="dropdown-item" href="zubehoer_start.html">Zubehör</a>
+          <a class="dropdown-item" href="bauteile_start.html">Bauteile</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Programmiersprachen
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="c_start.html">C/C++/C#</a>
+          <a class="dropdown-item" href="python_start.html">Python</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="ide_start.html">IDEs, Betriebssysteme</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="suchen" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="topbox">
+    <div id="latestPost">
+    <a href="#">Letzter Artikel</a>    
+    </div>
+    
+    <div>
+        <img src="anotherberry/img/AB_berrycar_start.jpg"/>
+    </div>
+    
+    <div class="latestPostDescr">
+        <p><b>Gumbo beet greens corn soko endive gumbo gourd.</b></p>
+        <p></p>Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
+        Dandelion cucumber earthnut pea peanut soko zucchini.Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce
+        kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale
+        <a href="#">...weiter lesen</a>
+        </p>
+        <hr>
+        <p><b>passender Blog</b></p>
+        <hr>
+        <p>passender Blog</p>
+        <hr>
+        <p>passender Blog</p>        
+    </div>
+</div>
+<div class="rowBox">
+    
+</div>
+<div class="rowBox">
+    
+</div>
+<div class="rowBox">
+    
 </div>
 
-<div class="post">
-    <div class="date">14. August 20189</div>
-    <h1>Zweiter Eintrag</h1>
-    <p class="quote">Celery quandong swiss chard chicory earthnut pea potato.
-Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori.
-Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.</p>
-
-<p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane
-    kale. Celery potato scallion desert raisin horseradish spinach carrot soko.
-    Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion
-    chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi
-    beetroot carrot watercress.
-    Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.</p>
 </body>
 </html>

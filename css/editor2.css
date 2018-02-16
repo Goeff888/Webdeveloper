@@ -4,80 +4,7 @@ body{
   background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: black;
   font-family: 'Arvo', serif;
-}
-
-h1 {
-    font-size: 5.0em;    
-    text-align: center;
-
-}
-
-h2 {
-    font-size: 3.0em;
-    text-align: left;
-    margin-left: 1%;
-}
-
-h3 {
-    font-size: 2em;
-    margin-left: 1.66%;
-    text-align: center;
-}
-
-li {
-  margin-left: 1.66%;
-}
-
-p {
-  margin-left: 2%;
-}
-
-hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
-
-#dropzone{
-  width:80%;
-  height:200px;
-  border:1px solid black;
-  background-color: grey;
-  margin:auto;
-  padding: inherit;
-  text-align:center;
-  margin-top: 10%;
-  
-}
-#content{
-  width:100%;
-  height:200px;
-  background: white;
-  color:grey;
-}
-.aligninput{
-  margin-left: 4px;
-  margin-right: 4px;
-}
-
-
-.tools{
-  border: 0.5px solid black;
-  margin-left: 1px;
-  background-color: grey;
-  padding:5px;
-  color:#e2e2e2;
-}
-
-.tools:hover{
-  padding:2px;
-  color:white;
-  border-color: white;
-}
-
-#savePost{
-  margin-top:10px;
+  font-family: 'Dosis';  
 }
 
 a {
@@ -186,15 +113,3 @@ a.palette-item:hover {
   background: #FFF;
   margin-bottom: 2px;
 }
-/*font-size*/
-/*font-family*/
-/*font-weight*/
-/*font-height*/
-/*font-align*/
-/*font-decoration*/
-
-/*Content width*/
-/*Content height*/
-/*border*/
-/*padding*/
-/*margin*/
